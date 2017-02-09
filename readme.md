@@ -1,7 +1,7 @@
 ## use
 
 ```js
-var videoPlayTime = require('video-playTime');
+var videoPlayTime = require('videojs-playtime');
 videojs.plugin('videoPlayTime', videoPlayTime);
 videojs("my-video", {
   techOrder: ['flash','html5'],

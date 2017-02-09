@@ -10,7 +10,6 @@ module.exports = function (options) {
     });
     this.on('pause', function() {
         beginTime = 0;
-        console.log(this.playTime());
     });
     this.on('playing', function() {
         startTime = this.currentTime();
